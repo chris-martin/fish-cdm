@@ -16,7 +16,6 @@
         };
 
       in
-      {
-        packages = import ./nix { inherit nixpkgs; };
-      });
+      import ./nix { inherit nixpkgs; }
+    );
 }
