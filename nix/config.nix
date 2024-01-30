@@ -3,8 +3,8 @@
   status --is-interactive; and begin
 
     set fish_greeting
-    set --export GIT_EDITOR vim
-    set --export EDITOR vim
+    set --export GIT_EDITOR editor-cdm
+    set --export EDITOR editor-cdm
 
     ${import ./abbreviations.nix { inherit nixpkgs; }}
 
