@@ -24,6 +24,6 @@
     git for-each-ref \
       --sort=committerdate refs/heads/ \
       --format='%(committerdate:short)%09%(authorname)%09%(refname:short)' \
-      | column -t -s "$(echo -e '\t')"
+      | column -t -s "(echo -e '\t')"
   end
 ''
